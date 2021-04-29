@@ -33,24 +33,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Dalamud">
-      <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Dalamud.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\VS\DalamudBin\Dalamud.dll</HintPath>
+    </Reference>
+    <Reference Include="FFXIVClientStructs">
+      <HintPath>..\..\..\..\..\VS\DalamudBin\FFXIVClientStructs.dll</HintPath>
     </Reference>
     <Reference Include="ImGui.NET">
-      <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\ImGui.NET.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\VS\DalamudBin\ImGui.NET.dll</HintPath>
     </Reference>
     <Reference Include="ImGuiScene">
-      <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\ImGuiScene.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\VS\DalamudBin\ImGuiScene.dll</HintPath>
     </Reference>
-    <Reference Include="Lumina, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>packages\Lumina.2.5.1\lib\netstandard2.0\Lumina.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Lumina">
+      <HintPath>..\..\..\..\..\VS\DalamudBin\Lumina.dll</HintPath>
     </Reference>
-    <Reference Include="Lumina.Excel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>packages\Lumina.Excel.5.40.0\lib\netstandard2.0\Lumina.Excel.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Lumina.Excel">
+      <HintPath>..\..\..\..\..\VS\DalamudBin\Lumina.Excel.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
