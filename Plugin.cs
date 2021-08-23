@@ -154,6 +154,8 @@ namespace AutoSweep
             float housePriceMillions = houseInfoEntry.HousePrice / 1000000f;
             string houseSizeName = houseSize == 0 ? "Small" : houseSize == 1 ? "Medium" : "Large";
 
+            pi.CommandManager.ProcessCommand("/hsplotnotify " + wardNum.ToString());
+
             string output;
             switch (configuration.OutputFormat)
             {
